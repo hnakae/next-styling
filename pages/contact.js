@@ -1,9 +1,7 @@
-import React from 'react'
+import styles from "../styles/Contact.module.scss";
 
 const contact = () => {
-  return (
-    <div>contact</div>
-  )
-}
+  return <div className={styles.highlightscss}>Contact Page</div>;
+};
 
-export default contact
+export default contact;
